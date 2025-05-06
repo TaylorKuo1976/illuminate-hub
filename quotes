@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>文明金句光廊 | Illuminate Quote Wall</title>
+  <style>
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 40px;
+      max-width: 960px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2em;
+      text-align: center;
+      margin-bottom: 40px;
+      color: #222;
+    }
+    .quote-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .quote-card {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      text-align: center;
+    }
+    .quote-text {
+      font-size: 1.1em;
+      font-style: italic;
+      color: #444;
+      margin-bottom: 10px;
+    }
+    .quote-translation {
+      font-size: 0.95em;
+      color: #666;
+    }
+    .quote-sub {
+      font-size: 0.9em;
+      margin-top: 12px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="section-title">文明金句光廊<br><span style="font-size: 0.7em; color:#888;">Quote Wall</span></div>
+  <div class="quote-grid">
+    <div class="quote-card">
+      <div class="quote-text">行動，是文明的燃料。</div>
+      <div class="quote-translation">Action is the fuel of civilization.</div>
+      <div class="quote-sub">— Illuminate Volume 1</div>
+    </div>
+    <div class="quote-card">
+      <div class="quote-text">成為自己，才能真正遇見世界。</div>
+      <div class="quote-translation">To become oneself is to truly meet the world.</div>
+      <div class="quote-sub">— Illuminate Volume 1</div>
+    </div>
+    <div class="quote-card">
+      <div class="quote-text">每一個微小的選擇，都是文明前進的腳步。</div>
+      <div class="quote-translation">Every small choice is a step forward in civilization.</div>
+      <div class="quote-sub">— Illuminate Volume 1</div>
+    </div>
+    <div class="quote-card">
+      <div class="quote-text">不是等待英雄，而是自己發光。</div>
+      <div class="quote-translation">Do not wait for heroes — become the light yourself.</div>
+      <div class="quote-sub">— Illuminate Volume 1</div>
+    </div>
+  </div>
+</body>
+</html>
